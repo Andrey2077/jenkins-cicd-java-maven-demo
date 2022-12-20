@@ -6,9 +6,10 @@
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Demo Maven Webapp</name>
-  <url>https://github.com/tongueroo/demo-java</url>
+ 
   <build>
-    <finalName>demo</finalName>
+    <defaultGoal>install</defaultGoal>
+    <finalName>demo.war</finalName>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       
