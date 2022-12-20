@@ -12,16 +12,7 @@
     <finalName>result.war</finalName>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
-      
-       <plugin>
-             <executions>
-                  <execution>
-                    <goals>
-                           <goal>result.war</goal>
-                    </goals>
-               </execution>
-          </executions>
-         
+             
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.2.1</version>
@@ -32,7 +23,7 @@
                     <execution>
                         <phase>package</phase>
                         <goals>
-                            <goal>war</goal>
+                            <goal>result.war</goal>
                         </goals>
                     </execution>
                 </executions>
