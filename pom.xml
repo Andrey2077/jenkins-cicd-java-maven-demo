@@ -9,7 +9,7 @@
  
   <build>
     <defaultGoal>install</defaultGoal>
-    <finalName>demo.war</finalName>
+    <finalName>result.war</finalName>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       
