@@ -17,7 +17,7 @@
              <executions>
                   <execution>
                     <goals>
-                           <goal>GOAL NAME</goal>
+                           <goal>result.war</goal>
                     </goals>
                </execution>
           </executions>
